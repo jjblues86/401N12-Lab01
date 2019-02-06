@@ -2,15 +2,11 @@
 
 let greet = require('../lib/greet');
 
-describe('greet.js', () =>{
+describe('greeting', () => {
 
-    describe('#greet', () => {
+    test('be nice', () => {
+        expect(greet.sayHello('Jabin')).toBeTruthy();
 
-        test('should return Hello Jabin', () => {
-            expect(greet.sayHello('Jabin'), 'Hello Jabin')
-        })
+    });
 
-})
-
-
-})
+});
