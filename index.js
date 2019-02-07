@@ -11,4 +11,6 @@ const requestHandler = (req, res) => {
 };
 
 const app = http.createServer(requestHandler);
-app.listen(process.env.PORT, () => console.log('server is up'));
+app.listen(process.env.PORT, () => {
+    return console.log('server is up');
+});
