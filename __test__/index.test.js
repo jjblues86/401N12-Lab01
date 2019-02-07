@@ -6,7 +6,7 @@ const faker = require('faker');
 describe('#lib/greet.js', () => {
     // Jerome - here we'll write all our tests
 
-    test('You say hello', () => {
+    test('These are all the tests', () => {
         // ARRANGE
         // const randomNumber = 15;
         const aBoolean = true;
