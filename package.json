@@ -1,18 +1,16 @@
 {
   "name": "401n12-lab01",
   "version": "1.0.0",
-  "description": "",
+  "description": "basic tdd techniques",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "lint": "eslint **/*.js",
     "test": "jest --verbose --coverage",
-    "test-watch": "jest --watchAll --verbose --coverage"
+
   },
   "author": "Jerome Joof",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.6.1",
+    "faker": "^4.1.0",
     "jest": "^24.1.0"
   }
 }
