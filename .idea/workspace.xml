@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba953d80-4bca-4c34-80f5-26a3d5dca04b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__test__/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/index.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,16 +24,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__test__/index.test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/greet.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -170,8 +169,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.greeting">
-    <configuration name="greet.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.#lib/greet.js">
+    <configuration name="#lib/greet.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -180,7 +179,21 @@
       <scope-kind value="SUITE" />
       <test-file value="$PROJECT_DIR$/__test__/index.test.js" />
       <test-names>
-        <test-name value="greet.js" />
+        <test-name value="#lib/greet.js" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="#lib/greet.js.These are all the tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/index.test.js" />
+      <test-names>
+        <test-name value="#lib/greet.js" />
+        <test-name value="These are all the tests" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -227,10 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.#lib/greet.js" />
+        <item itemvalue="Jest.#lib/greet.js.These are all the tests" />
         <item itemvalue="Jest.greeting" />
         <item itemvalue="Jest.greeting.does not say hello" />
         <item itemvalue="Jest.greeting.be nice" />
-        <item itemvalue="Jest.greet.js" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +260,7 @@
       <updated>1549422630089</updated>
       <workItem from="1549422631642" duration="71000" />
       <workItem from="1549422707809" duration="11000" />
-      <workItem from="1549422724914" duration="15165000" />
+      <workItem from="1549422724914" duration="15695000" />
     </task>
     <servers />
   </component>
@@ -269,9 +283,18 @@
     <history-entry file="greeting - 2019.02.05 at 21h 03m 47s.xml">
       <configuration name="greeting" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="#lib_greet_js_These_are_all_the_tests - 2019.02.06 at 20h 28m 21s.xml">
+      <configuration name="#lib/greet.js.These are all the tests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="#lib_greet_js - 2019.02.06 at 20h 32m 11s.xml">
+      <configuration name="#lib/greet.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="#lib_greet_js - 2019.02.06 at 20h 32m 53s.xml">
+      <configuration name="#lib/greet.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15247000" />
+    <option name="totallyTimeSpent" value="15777000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,7 +315,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,17 +381,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/__test__/index.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/greet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__test__/index.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>

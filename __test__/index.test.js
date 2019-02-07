@@ -19,8 +19,8 @@ describe('#lib/greet.js', () => {
         // ASSERT
         // expect(greet(randomNumber)).toBeNull();
         expect(greet.sayHello(aBoolean)).toBeNull();
-        expect(greet.sayHello(aName)).toEqual(`hello ${aName}`);
-        expect(greet.sayHello(world)).toEqual('hello world');
+        expect(greet.sayHello(aName)).toBe(`Hello ${aName}`);
+        expect(greet.sayHello(world)).toBe('Hello world');
 
     });
 
