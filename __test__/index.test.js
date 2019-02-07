@@ -8,7 +8,7 @@ describe('#lib/greet.js', () => {
 
     test('You say hello', () => {
         // ARRANGE
-        const randomNumber = 15;
+        // const randomNumber = 15;
         const aBoolean = true;
         const aName = faker.name.firstName();
         const world = 'world';
@@ -17,7 +17,7 @@ describe('#lib/greet.js', () => {
         // no act
 
         // ASSERT
-        expect(greet(randomNumber)).toBeNull();
+        // expect(greet(randomNumber)).toBeNull();
         expect(greet(aBoolean)).toBeNull();
         expect(greet(aName)).toEqual(`hello ${aName}`);
         expect(greet(world)).toEqual('hello world');
