@@ -40,11 +40,6 @@ describe('#lib/greet.js', () => {
             // Jerome - no act
 
             // ASSERT
-            // expect(arithmetic.add(oneNum,twoNum)).toEqual(oneNum + twoNum);
-            // expect(arithmetic.subtract(oneNum,twoNum)).toEqual(oneNum - twoNum);
-            // expect(arithmetic.multiply(oneNum,twoNum)).toEqual(oneNum * twoNum);
-            // expect(arithmetic.divide(oneNum,twoNum)).toEqual(oneNum / twoNum);
-
             expect(arithmetic.add([oneNum,twoNum,threeNum])).toEqual(oneNum + twoNum + threeNum);
             expect(arithmetic.subtract([oneNum,twoNum,threeNum])).toEqual(oneNum - twoNum - threeNum);
             expect(arithmetic.multiply([oneNum,twoNum,threeNum])).toEqual(oneNum * twoNum * threeNum);
