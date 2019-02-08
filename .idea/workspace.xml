@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba953d80-4bca-4c34-80f5-26a3d5dca04b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__test__/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/arithmetic.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/arithmetic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -27,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/__test__/index.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="750">
+              <caret line="50" column="79" selection-start-line="50" selection-start-column="79" selection-end-line="50" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -36,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/arithmetic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="149">
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -117,8 +121,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1156" />
-    <option name="y" value="203" />
+    <option name="x" value="4" />
+    <option name="y" value="136" />
     <option name="width" value="1049" />
     <option name="height" value="737" />
   </component>
@@ -158,6 +162,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -180,7 +185,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.#lib/greet.js">
+  <component name="RunManager" selected="Jest.#arithmetic.js">
+    <configuration name="#arithmetic.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__test__/index.test.js" />
+      <test-names>
+        <test-name value="#arithmetic.js" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="#lib/arithmetic.js.These are all the arithmetic module tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/index.test.js" />
+      <test-names>
+        <test-name value="#lib/arithmetic.js" />
+        <test-name value="These are all the arithmetic module tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="#lib/greet.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -191,6 +223,20 @@
       <test-file value="$PROJECT_DIR$/__test__/index.test.js" />
       <test-names>
         <test-name value="#lib/greet.js" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="#lib/greet.js.These are all the greet tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/index.test.js" />
+      <test-names>
+        <test-name value="#lib/greet.js" />
+        <test-name value="These are all the greet tests" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -208,54 +254,13 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="greeting" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/__test__/index.test.js" />
-      <test-names>
-        <test-name value="greeting" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="greeting.be nice" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/index.test.js" />
-      <test-names>
-        <test-name value="greeting" />
-        <test-name value="be nice" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="greeting.does not say hello" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/index.test.js" />
-      <test-names>
-        <test-name value="greeting" />
-        <test-name value="does not say hello" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.#arithmetic.js" />
+        <item itemvalue="Jest.#lib/arithmetic.js.These are all the arithmetic module tests" />
+        <item itemvalue="Jest.#lib/greet.js.These are all the greet tests" />
         <item itemvalue="Jest.#lib/greet.js" />
         <item itemvalue="Jest.#lib/greet.js.These are all the tests" />
-        <item itemvalue="Jest.greeting" />
-        <item itemvalue="Jest.greeting.does not say hello" />
-        <item itemvalue="Jest.greeting.be nice" />
       </list>
     </recent_temporary>
   </component>
@@ -271,44 +276,44 @@
       <updated>1549422630089</updated>
       <workItem from="1549422631642" duration="71000" />
       <workItem from="1549422707809" duration="11000" />
-      <workItem from="1549422724914" duration="19998000" />
+      <workItem from="1549422724914" duration="23404000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="greet_js - 2019.02.05 at 20h 46m 56s.xml">
-      <configuration name="greet.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#arithmetic_js - 2019.02.06 at 23h 27m 32s.xml">
+      <configuration name="#arithmetic.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="greet_js - 2019.02.05 at 21h 02m 36s.xml">
-      <configuration name="greet.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#arithmetic_js - 2019.02.06 at 23h 37m 28s.xml">
+      <configuration name="#arithmetic.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="greeting_be_nice - 2019.02.05 at 21h 02m 57s.xml">
-      <configuration name="greeting.be nice" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#arithmetic_js - 2019.02.06 at 23h 42m 56s.xml">
+      <configuration name="#arithmetic.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="greeting_does_not_say_hello - 2019.02.05 at 21h 03m 08s.xml">
-      <configuration name="greeting.does not say hello" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#arithmetic_js - 2019.02.06 at 23h 44m 00s.xml">
+      <configuration name="#arithmetic.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="greeting_does_not_say_hello - 2019.02.05 at 21h 03m 41s.xml">
-      <configuration name="greeting.does not say hello" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#arithmetic_js - 2019.02.07 at 17h 56m 03s.xml">
+      <configuration name="#arithmetic.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="greeting - 2019.02.05 at 21h 03m 47s.xml">
-      <configuration name="greeting" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#arithmetic_js - 2019.02.07 at 17h 57m 22s.xml">
+      <configuration name="#arithmetic.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="#lib_greet_js_These_are_all_the_tests - 2019.02.06 at 20h 28m 21s.xml">
-      <configuration name="#lib/greet.js.These are all the tests" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#arithmetic_js - 2019.02.07 at 17h 57m 41s.xml">
+      <configuration name="#arithmetic.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="#lib_greet_js - 2019.02.06 at 20h 32m 11s.xml">
-      <configuration name="#lib/greet.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#arithmetic_js - 2019.02.07 at 17h 58m 40s.xml">
+      <configuration name="#arithmetic.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="#lib_greet_js - 2019.02.06 at 20h 32m 53s.xml">
-      <configuration name="#lib/greet.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#arithmetic_js - 2019.02.07 at 17h 59m 24s.xml">
+      <configuration name="#arithmetic.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="#lib_greet_js - 2019.02.06 at 20h 34m 15s.xml">
-      <configuration name="#lib/greet.js" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="#arithmetic_js - 2019.02.07 at 17h 59m 57s.xml">
+      <configuration name="#arithmetic.js" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20080000" />
+    <option name="totallyTimeSpent" value="23486000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,16 +325,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1156" y="203" width="1049" height="737" extended-state="0" />
+    <frame x="4" y="136" width="1049" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,8 +388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -404,15 +409,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/arithmetic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="149">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/__test__/index.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="750">
+          <caret line="50" column="79" selection-start-line="50" selection-start-column="79" selection-end-line="50" selection-end-column="79" />
         </state>
       </provider>
     </entry>
